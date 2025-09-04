@@ -1,0 +1,44 @@
+// Name - Akshit Chordia
+// PRN - 24070123008
+// Batch - EnTC - A1
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+     int rows = 3;
+     int cols = 3;
+    int arr[rows][cols];
+
+    cout << "Enter the elements of the 3x3 matrix:" << endl;
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            cin >> arr[i][j];
+        }
+    }
+
+    cout << "The first matrix is:" << endl;
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+
+
+/*Output:-
+Enter the elements of the 3x3 matrix:
+1 2 3 4 5 6 7 8 9
+The first matrix is:
+1 2 3 
+4 5 6 
+7 8 9 
+
+*/
